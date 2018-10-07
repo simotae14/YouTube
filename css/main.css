@@ -45,3 +45,33 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+/* Header */
+header {
+    padding: 30px 0 0 0;
+}
+
+.logo {
+    max-width: 60%;
+}
+
+#menu-toggle {
+    position: absolute;
+    top: 30%;
+    left: 78%;
+}
+
+#menu-toggle img {
+    width: 20px;
+}
+/* search bar */
+input {
+    border: 1px solid #d9dcdf;
+    color: #66747f;
+    font-size: 12px;
+    padding: 17px 25px;
+    width: 100%;
+    background: url(../images/search.png) #f7f8fa no-repeat right 35px center;
+    background-size: 3%;
+    outline: none;
+}
