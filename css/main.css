@@ -157,3 +157,103 @@ input {
     color: #000;
     font-weight: 700;
 }
+
+/* Tabs */
+.tab {
+    text-align: center;
+    margin: -10px 0;
+}
+
+.tab li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #808791;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+.tab li:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.tab .active {
+    border-bottom: 3px solid #e00918;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    color: #000;
+}
+
+/* Main content */
+.main-videos h2 {
+    margin: 20px 0;
+}
+
+.area {
+    position: relative;
+}
+
+.duration {
+    background-color: #e00918;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+p.views {
+    color: #343434;
+}
+
+.videos h2 {
+    font-weight: 700;
+}
+
+.videos h4 {
+    font-weight: 600;
+}
+
+.video p {
+    margin: 0;
+    padding: 0;
+    color: #757a80;
+    line-height: inherit;
+}
+
+.area:hover .mask {
+    display: block;
+    cursor: pointer;
+    opacity: 100;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.mask {
+    position: absolute;
+    background-color: rgba(226, 23, 37,0.9);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.mask p {
+    color: #fff;
+    font-weight: 700;
+}
+
+.mask i {
+    font-size: 80px;
+    color: #fff;
+}
